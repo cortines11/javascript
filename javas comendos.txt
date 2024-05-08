@@ -1,0 +1,19 @@
+Number.parseInt() ---> converte uma string para numero inteiro
+Number.ParseFloat() ---> converte uma string para numero real
+Number() ---> string para numero js decide se vai ser inteiro ou real
+
+string() ---> converte numero para string
+
+template strings
+`A soma dos valores ${n1} e ${n2} é igual ${s}`
+
+"var".toUpperCase > para letras maiusculas e lower para minusculas
+
+document.write ---> digita uma resposta na propria página
+
+n1.toFixed(2) ---> definir casas depois da virgula
+
+.replace('x' , 'y') ---> troca um simbolo pelo outro 
+
+n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})
+	
