@@ -18,4 +18,5 @@ n1.toFixed(2) ---> definir casas depois da virgula
 .replace('x' , 'y') ---> troca um simbolo pelo outro 
 
 n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})
-	
+
+onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >>>>> acrescenter evento no HTML
