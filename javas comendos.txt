@@ -2,6 +2,8 @@ Number.parseInt() ---> converte uma string para numero inteiro
 Number.ParseFloat() ---> converte uma string para numero real
 Number() ---> string para numero js decide se vai ser inteiro ou real
 
+var n1 = Number(prompt('Digite um numero:')) > cria uma variável a partir do que você digita no prompt ('')
+
 string() ---> converte numero para string
 
 template strings
