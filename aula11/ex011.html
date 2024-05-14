@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAISSSSS</title>
+</head>
+<body>
+    <h1>Conferir Cores</h1>
+    <p>Tente acertar a cor:</p><input type="text" name="txtcor" id="txtcor">
+    <input type="button" value="Verificar" onclick="calcular()">
+
+    <div id = "res">
+        <p>Resultado</p>
+    </div>
+
+  
+
+    <script>
+        
+        function calcular () {
+            var cor = document.getElementById('txtcor')
+            var res = document.getElementById('res')
+            var cor1 = (cor.value)
+            res.innerHTML = `<p>A cor que você escolheu foi ${cor1}</p>`
+            
+            if(cor1 == 'vermelho') {
+                res.innerHTML += `<p>Você acertou a cor! PARABÉNS</p>` 
+            } else {
+                res.innerHTML += `<p>Você errou! Tente novamente</p>`
+            }
+        }
+    </script>
+
+</body>
+</html>
