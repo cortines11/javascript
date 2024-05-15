@@ -21,10 +21,9 @@
         function calcular () {
             var cor = document.getElementById('txtcor')
             var res = document.getElementById('res')
-            var cor1 = (cor.value)
             res.innerHTML = `<p>A cor que você escolheu foi ${cor1}</p>`
             
-            if(cor1 == 'vermelho') {
+            if(cor == 'vermelho') {
                 res.innerHTML += `<p>Você acertou a cor! PARABÉNS</p>` 
             } else {
                 res.innerHTML += `<p>Você errou! Tente novamente</p>`
