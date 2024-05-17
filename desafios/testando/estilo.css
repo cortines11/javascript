@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #ff4654;
+}
+
+header {
+    background-color: black;
+}
+
+section {
+    max-width: 500px;
+    background-color: white;
+    margin: auto;
+}
+
+header img {
+    
+}
