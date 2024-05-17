@@ -20,3 +20,5 @@ n1.toFixed(2) ---> definir casas depois da virgula
 n1.toLocaleString('pt-BR', {style:'currency', currency:'BRL'})
 
 onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >>>>> acrescenter evento no HTML
+
+res.appendChild(exemplo'img') >>> mostrar algo após uma outra exibição
