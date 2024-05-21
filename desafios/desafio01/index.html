@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #calcular {
+            width: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Calculadora</h1>
+
+    <input type="number" name="n1" id="numero1"> + 
+    <input type="number" name="n2" id="numero2"><br>
+    <input type="button" value="Calcular" onclick="calcular()" Calcular>
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var n1 = document.getElementById("numero1")
+            var n2 = document.getElementById('numero2')
+            var n1 = Number(numero1.value)
+            var n2 = Number(numero2.value)
+            var s = n1 + n2
+            res.innerHTML = `O resultado de ${n1} + ${n2} é <strong>${s}</strong>`
+
+        }
+
+    </script>
+
+
+</body>
+</html>
