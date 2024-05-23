@@ -7,7 +7,8 @@
 </head>
 <body>
     <h1>Conferir Cores</h1>
-    <p>Tente acertar a cor:</p><input type="text" name="txtcor" id="txtcor">
+    <p>Tente acertar a cor:</p> <input type="text" name="txtcor" id="txtcor">
+
     <input type="button" value="Verificar" onclick="calcular()">
 
     <div id = "res">
@@ -21,7 +22,8 @@
         function calcular () {
             var cor = document.getElementById('txtcor')
             var res = document.getElementById('res')
-            res.innerHTML = `<p>A cor que você escolheu foi ${cor1}</p>`
+            
+            res.innerHTML = `<p>A cor que você escolheu foi ${cor} </p>`
             
             if(cor == 'vermelho') {
                 res.innerHTML += `<p>Você acertou a cor! PARABÉNS</p>` 

@@ -27,6 +27,8 @@ TESTE ? 'TRUE' : 'FALSE' >>> var med = 5.9
 média >6? 'aprovado' : "reprovado'
 se a média(?) for mais que seis o aluno é aprovado, se não (:) é reprovado
 
+variavel.addEventListener('click', clicar) >>> click sendo a ação a ser tomada quando clicar, e 'clicar' sendo o nome da função
+
 
 
 
