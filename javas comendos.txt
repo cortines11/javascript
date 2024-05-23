@@ -23,6 +23,10 @@ onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()" >>>>> acrescenter
 
 res.appendChild(exemplo'img') >>> mostrar algo após uma outra exibição
 
+TESTE ? 'TRUE' : 'FALSE' >>> var med = 5.9
+média >6? 'aprovado' : "reprovado'
+se a média(?) for mais que seis o aluno é aprovado, se não (:) é reprovado
+
 
 
 
