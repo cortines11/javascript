@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Par ou impar</title>
+</head>
+<body>
+    <p>Digite um numero no campo abaixo para verificar se o número é par ou impar</p>
+
+    <input type="number" id="txtnum">
+    <input type="button" value="verificar" onclick="parouim()">
+
+    <div id="res"> </div>
+
+    <script>
+        function parouim (){
+            var numero = document.getElementById('txtnum')
+            var r = document.getElementById('res')
+            var num = Number(numero.value)
+            res.innerHTML = `<p>O numero que você escolheu foi <strong>${num}</strong>.</p>`
+
+            if (num % 2 == 0) {
+                res.innerHTML += `O número é <strong>PAR!</strong>`
+            } else {
+                res.innerHTML += `O número é <strong>ÍMPAR</strong>!`
+            }
+
+        }
+    </script>
+</body>
+</html>
