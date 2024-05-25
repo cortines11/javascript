@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+
+header h1 {
+    padding: 10px;
+}
+
+section {
+   
+    width: 600px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+    text-align: center;
+}
+
+section h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+div#res {
+    padding: 10px;
+}
+
