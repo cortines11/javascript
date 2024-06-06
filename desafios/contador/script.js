@@ -1,4 +1,4 @@
-function calcular(){
+function contar(){
     var ini = document.getElementById('txti')
     var fim = document.getElementById('txtn')
     var passo = document.getElementById('txtp')
@@ -7,7 +7,7 @@ function calcular(){
     if (ini.value.length ==0 || fim.value.length == 0 || pas.value.length ==0) {
         alert('ERRO! Faltam dados!')
     } else {
-        res.innerHTML = 'Contando:'
+        res.innerHTML += 'Contando:'
         var i = Number(ini.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
