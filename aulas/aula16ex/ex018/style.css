@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: cornflowerblue;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    width: 450px;
+    
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px;
+    margin: auto;
+    padding: 10px;
+}
+
+select#flista {
+    width: 150px;
+}
