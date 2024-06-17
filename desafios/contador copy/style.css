@@ -1,0 +1,24 @@
+@charset "UTC-8";
+
+body {
+    background-image: linear-gradient(rgb(72, 107, 224), rgb(175, 157, 240));
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+div {
+    text-align: center;
+    padding: 10px;
+    
+}
